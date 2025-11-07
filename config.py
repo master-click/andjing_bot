@@ -3,6 +3,7 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
+ADMIN_ID = int(os.getenv("ADMIN_ID"))
 TELEGRAM_TOKEN = os.getenv("TELEGRAM_TOKEN")
 HEXAGRAMS_FILE = "data/hexagrams.json"
 IMAGES_DIR = "images/"
